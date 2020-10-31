@@ -1,0 +1,34 @@
+input {
+    margin-top: 15px;
+    height: 25px;
+    width: 100% !important;
+    text-indent: 7px;
+}
+
+.list {
+    padding-left: 0 !important;
+    padding: 0 !important;
+}
+
+.list li {
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: solid 1px black;
+}
+
+.list li span {
+    display: block;
+}
+
+.list li span.name {
+    float: left;
+}
+
+.list li span.phone {
+    float: right;
+}
+
+.list li span.clear {
+    clear: both;
+}
